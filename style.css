@@ -1,0 +1,96 @@
+body {
+    background-color: #FEEAFA;
+    height: 1700px;
+}
+.intro {
+    background-color: #CBC0D3;
+    height: 670px;
+    border-radius: 40px 40px 40px 40px;
+    margin: 10%;
+    box-shadow: 10px 5px 5px #695478;
+}
+#introitems {
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+#photo {
+    float:left;
+    width: 30%;
+    height: 41%;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 5px 5px #927BA3;
+}
+#maintext {
+    float:right;
+    width: 40%;
+    height: 44%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+#text {
+    background-color: #B09FBC;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 5px 5px #927BA3;
+}
+#links {
+    background-color: #B09FBC;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    height: 22%;
+    box-shadow: 10px 5px 5px #927BA3;
+}
+.link {
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+
+.main {
+    background-color: #ABB4C4;
+    height: 500px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    box-shadow: 10px 5px 5px #8E9AAF;
+}
+#mainitems {
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+#aboutme {
+    background-color: #DBDFE6;
+    float:left;
+    width: 40%;
+    height: 80%;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15px;
+    box-shadow: 10px 5px 5px #C3CAD5;
+}
+#aboutmetext {
+    margin: 10%;
+}
+#hobby {
+    float:right;
+    width: 40%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 15px;
+}
+#hobbytext {
+    background-color: #DBDFE6;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 10px 5px 5px #C3CAD5;
+}
