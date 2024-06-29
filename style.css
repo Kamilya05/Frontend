@@ -47,7 +47,6 @@ body {
     box-shadow: 10px 5px 5px #927BA3;
     padding-top: 10px;
 }
-
 .main {
     background-color: #ABB4C4;
     box-shadow: 10px 5px 5px #8E9AAF;
@@ -66,6 +65,14 @@ body {
     box-shadow: 10px 5px 5px #C3CAD5;
 }
 #about-me {
+    margin: 10px;
+    text-indent: 30px;
+}
+#my-hobby {
+    margin: 10px;
+    text-indent: 30px;
+}
+#elective-hw {
     margin: 10px;
     text-indent: 30px;
 }
