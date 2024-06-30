@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const email = "k.shakirova@innopolis.university";
+    const email = "k.shakirov@innopolis.university";
     const apiUrl = `https://fwd.innopolis.university/api/hw2?email=${email}`;
 
     fetch(apiUrl)
