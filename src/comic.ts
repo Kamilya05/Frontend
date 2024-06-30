@@ -1,6 +1,6 @@
 'use strict';
 
-// import { formatDistanceToNowStrict } from "date-fns";
+import { formatDistanceToNowStrict } from "date-fns";
 
 interface Comic {
   safe_title: string;
@@ -11,7 +11,7 @@ interface Comic {
   day: string;
 }
 
-// document.addEventListener("DOMContentLoaded", (): void => {
+document.addEventListener("DOMContentLoaded", (): void => {
 const email: string = "k.shakirova@innopolis.university";
 const apiUrl: string = `https://fwd.innopolis.university/api/hw2?email=${email}`;
 
@@ -30,7 +30,7 @@ fetch(apiUrl)
         comicImg.setAttribute('src', comic.img);
         comicImg.setAttribute('alt', comic.alt);
         const date: Date = new Date(Number(comic.year), Number(comic.month) - 1, Number(comic.day));
-        comicDate.textContent = `${date.toLocaleDateString()}`;
-        // comicDate.textContent = `${date.toLocaleDateString()} - ${formatDistanceToNowStrict(date)}`;
+        // comicDate.textContent = `${date.toLocaleDateString()}`;
+        comicDate.textContent = `${date.toLocaleDateString()} - ${formatDistanceToNowStrict(date)}`;
     })
-// });
+});
