@@ -48,5 +48,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - run: npm install
-      - run: npm run dev
+      - run: ls
+      - run: cd ..
+      - run: ls
