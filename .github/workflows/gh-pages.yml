@@ -20,20 +20,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run lint
+        run: npm run lint
+      - name: Run check
+        run: npm run check
+
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
-          
-      - run: npm run format
-      - run: npm run lint
-      - run: npm run check
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ../build
+          # this should match the `pages` option in your adapter-static options
+          path: 'build/'
 
   deploy:
     needs: build_site
