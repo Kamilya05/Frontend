@@ -12,7 +12,7 @@
     }
     let comicInfo = {
         comicTitle: 'Loading...',
-        comicImg: 'image/',
+        comicImg: '',
         comicAlt: 'comic',
         comicDate: '',
     }
