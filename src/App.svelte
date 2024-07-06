@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import './app.css'
     import photoMe from './assets/photo.jpg';
     import Links from './lib/Links.svelte';
