@@ -1,6 +1,6 @@
 <script lang="ts">
     import '../app.css'
-    import photoMe from '$lib/images/photo.jpg'
+    import photoMe from '$lib/images/photo.jpg';
 </script>
 
 <div class="intro">
