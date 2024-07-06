@@ -29,7 +29,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
-
+          
+      - run: npm run format
       - run: npm run lint
       - run: npm run check
 
