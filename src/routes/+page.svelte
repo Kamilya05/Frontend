@@ -1,7 +1,6 @@
 <script lang="ts">
     import '../app.css'
-    import photoMe from '$lib/images/photo.jpg';
-    import { base } from '$app/paths';
+    import photoMe from '$lib/images/photo.jpg'
 </script>
 
 <div class="intro">
