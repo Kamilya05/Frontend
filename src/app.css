@@ -51,10 +51,9 @@ body {
     background-color: #ABB4C4;
     box-shadow: 10px 5px 5px #8E9AAF;
     border-radius: 40px 40px 40px 40px;
-    height: 600px;
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 10%;
     padding: 3%;
@@ -63,13 +62,15 @@ body {
     background-color: #DBDFE6;
     border-radius: 40px 40px 40px 40px;
     box-shadow: 10px 5px 5px #C3CAD5;
+    padding: 5px;
+    margin-bottom: 40px;
 }
 #about-me {
-    margin: 10px;
+    margin: 30px;
     text-indent: 30px;
 }
 #my-hobby {
-    margin: 10px;
+    margin: 30px;
     text-indent: 30px;
 }
 #elective-hw {
@@ -80,12 +81,14 @@ body {
     background-color: #DBDFE6;
     border-radius: 40px 40px 40px 40px;
     box-shadow: 10px 5px 5px #C3CAD5;
+    padding: 5px;
 }
-.homework {
-    background-color: #DBDFE6;
-    border-radius: 40px 40px 40px 40px;
-    box-shadow: 10px 5px 5px #C3CAD5;
-}
+/*.homework {*/
+/*    !*display: none;*!*/
+/*    background-color: #DBDFE6;*/
+/*    border-radius: 40px 40px 40px 40px;*/
+/*    box-shadow: 10px 5px 5px #C3CAD5;*/
+/*}*/
 .comic {
     margin: 6%;
     background-color: #CBC0D3;
@@ -95,4 +98,35 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
+}
+#comic-content {
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+#comic-head {
+    margin: 0;
+}
+#comic-btn {
+    background-color: #B09FBC;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    color: black;
+    height: 80px;
+    width: 300px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#comic-return {
+    background-color: #B09FBC;
+    border-radius: 40px 40px 40px 40px;
+    border: none;
+    color: black;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
 }
