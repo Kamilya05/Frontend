@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import telegramLogo from '../assets/telegram.png';
     import instagramLogo from '../assets/instagram.png';
     import githubLogo from '../assets/github.png';
