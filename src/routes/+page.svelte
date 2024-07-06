@@ -1,7 +1,6 @@
 <script lang="ts">
     import '../app.css'
     import photoMe from '$lib/images/photo.jpg';
-    import Links from './Links.svelte';
 </script>
 
 <div class="intro">
