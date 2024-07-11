@@ -3,6 +3,12 @@
     import photoMe from '$lib/images/photo.jpg';
 </script>
 
+<head>
+	<title>Introduction</title>
+	<meta name="title" content="Introduction"/>
+	<meta name="description" content="Page with photo and description"/>
+</head>
+
 <div class="intro">
     <img id="photo" src={photoMe} alt="me">
     <div class="greeting">
