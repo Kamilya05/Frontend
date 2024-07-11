@@ -206,6 +206,7 @@ button:focus:not(:focus-visible) {
 }
 #comic-btn {
     background-color: #B09FBC;
+    box-shadow: 10px 5px 5px #695478;
     border-radius: 40px 40px 40px 40px;
     border: none;
     color: black;
@@ -216,10 +217,11 @@ button:focus:not(:focus-visible) {
     margin-bottom: 50px;
 }
 #comic-btn:hover {
-    background-color: #d5b3f5;
+    background-color: #EBE7EE;
 }
 #comic-return {
     background-color: #B09FBC;
+    box-shadow: 10px 5px 5px #695478;
     border-radius: 40px 40px 40px 40px;
     border: none;
     color: black;
@@ -228,5 +230,5 @@ button:focus:not(:focus-visible) {
     font-size: 20px;
 }
 #comic-return:hover {
-    background-color: #d5b3f5;
+    background-color: #EBE7EE;
 }
