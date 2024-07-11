@@ -215,6 +215,9 @@ button:focus:not(:focus-visible) {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#comic-btn:hover {
+    background-color: #d5b3f5;
+}
 #comic-return {
     background-color: #B09FBC;
     border-radius: 40px 40px 40px 40px;
@@ -223,4 +226,7 @@ button:focus:not(:focus-visible) {
     height: 40px;
     width: 150px;
     font-size: 20px;
+}
+#comic-return:hover {
+    background-color: #d5b3f5;
 }
