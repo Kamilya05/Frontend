@@ -1,3 +1,10 @@
+<head>
+    <title>My bio</title>
+    <meta name="title" content="My bio" />
+    <meta name="author" content="Kamilya Shakirova"/>
+    <meta name="description" content="Information about me and my hobbies"/>
+</head>
+
 <div class="main">
     <div>
         <div class="about-me">
