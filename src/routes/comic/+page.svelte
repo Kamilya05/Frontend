@@ -24,8 +24,14 @@
             comic_content.style.setProperty('display', 'none');
         }
     }
-
 </script>
+
+<head>
+    <title>Comic</title>
+    <meta name="title" content="Comic"/>
+    <meta name="author" content="Kamilya Shakirova"/>
+    <meta name="description" content="The comic is displayed here"/>
+</head>
 
 <div class="comic">
     <button id="comic-btn" on:click={async () => await getComic()}>Get a comic!</button>
