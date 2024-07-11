@@ -4,6 +4,10 @@
 	import Links from "./Links.svelte";
 </script>
 
+<head>
+	<meta name="author" content="Kamilya Shakirova"/>
+</head>
+
 <div class="app">
 	<Header />
 
