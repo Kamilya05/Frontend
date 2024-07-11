@@ -33,7 +33,7 @@
         <h1 id="comic-head">Comic</h1>
         <h2 id="title">{data.comic?.safe_title || 'Loading...'}</h2>
         <img id="image" src="{data.comic?.img}" alt="{data.comic?.alt}">
-        <p id="data">{data.date?.toLocaleDateString()}</p>
+        <p id="data">{data.date?.toLocaleDateString() - {formatDistanceToNowStrict(data.date)} from now}</p>
         <button id="comic-return" on:click={async () => await returnComic()}>Return</button>
     </div>
 </div>
